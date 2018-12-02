@@ -16,4 +16,5 @@ project:
 	cp go_helloWorld.go $(PROJ)/${SOURCE}/
 
 buildp:
+	${MKDIR} $(PROJ)/${BUILD}
 	cd $(PROJ)/${BUILD} && go build ../${SOURCE}/$(FILE)
