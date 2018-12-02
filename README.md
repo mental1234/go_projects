@@ -15,6 +15,11 @@ make project PROJ=project_name
 make buildp PROJ=project_name FILE=main.go
 ```
 
+## Sources
+The samples of Go code comes from: 
+* Go Programming by Example
+* An Introduction to Programming in Go
+
 ## Contact
 * linkedin.com/in/ramonesparza
 
