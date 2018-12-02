@@ -17,7 +17,10 @@ make buildp PROJ=project_name FILE=main.go
 
 ## Author
 
-Ramon Esparza
-rodriguez.esparza.ramon@gmail.com
-linkedin.com/in/ramonesparza
+* Ramon Esparza
+
+## Contact
+
+* rodriguez.esparza.ramon@gmail.com
+* linkedin.com/in/ramonesparza
 
