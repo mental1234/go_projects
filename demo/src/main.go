@@ -20,4 +20,10 @@ func main() {
 	fmt.Println("The value of n is: ", n)
 	fmt.Println("The value of m is: ", m)
 	fmt.Println("The value of nm is: ", nm)
+
+	// Declare variable with defining its type
+	country := "DE"
+	val := 15
+	fmt.Println("Country", country)
+	fmt.Println("Value of val: ", val)
 }
