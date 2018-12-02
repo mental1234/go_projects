@@ -16,7 +16,5 @@ make buildp PROJ=project_name FILE=main.go
 ```
 
 ## Contact
-
-* rodriguez.esparza.ramon@gmail.com
 * linkedin.com/in/ramonesparza
 
