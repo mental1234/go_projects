@@ -13,7 +13,7 @@ buildf:
 project:
 	${MKDIR} $(PROJ)/${BUILD}
 	${MKDIR} $(PROJ)/${SOURCE}
-	cp go_helloWorld.go $(PROJ)/${SOURCE}/
+	cp go_helloWorld.go $(PROJ)/${SOURCE}/main.go
 
 buildp:
 	${MKDIR} $(PROJ)/${BUILD}
