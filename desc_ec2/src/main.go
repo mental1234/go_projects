@@ -3,13 +3,15 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
 )
 
 func main() {
-//	fmt.Println("Hello World!")
+
+	instance_aws := os.Args[1]
 	// Session
         sess, err := session.NewSession(&aws.Config{
                 Region: aws.String("us-east-1")},
@@ -20,7 +22,7 @@ func main() {
 	//Input
 	input := &ec2.DescribeInstancesInput{
  		InstanceIds: []*string{
-        		aws.String("INSTANCE-ID"),
+        		aws.String(instance_aws),
     		},
 	}
 
