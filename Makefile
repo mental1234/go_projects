@@ -17,4 +17,4 @@ project:
 
 buildp:
 	${MKDIR} $(PROJ)/${BUILD}
-	cd $(PROJ)/${BUILD} && go build ../${SOURCE}/$(FILE)
+	cd $(PROJ)/${BUILD} && GOOS=$(ENV) go build ../${SOURCE}/$(FILE)
